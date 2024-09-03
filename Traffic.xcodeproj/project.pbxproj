@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D736E9E52C87504C00DF2854 /* TrafficApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736E9E42C87504C00DF2854 /* TrafficApp.swift */; };
-		D736E9E72C87504C00DF2854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736E9E62C87504C00DF2854 /* ContentView.swift */; };
 		D736E9E92C87504F00DF2854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D736E9E82C87504F00DF2854 /* Assets.xcassets */; };
 		D736E9EC2C87504F00DF2854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D736E9EB2C87504F00DF2854 /* Preview Assets.xcassets */; };
-		D736E9F62C87505000DF2854 /* TrafficTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736E9F52C87505000DF2854 /* TrafficTests.swift */; };
 		D736EA002C87505000DF2854 /* TrafficUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736E9FF2C87505000DF2854 /* TrafficUITests.swift */; };
 		D736EA022C87505000DF2854 /* TrafficUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA012C87505000DF2854 /* TrafficUITestsLaunchTests.swift */; };
+		D736EA0F2C8752E400DF2854 /* TrafficLightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA0E2C8752E400DF2854 /* TrafficLightState.swift */; };
+		D736EA112C87531300DF2854 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA102C87531300DF2854 /* CarViewModel.swift */; };
+		D736EA132C87565900DF2854 /* TrafficLightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA122C87565900DF2854 /* TrafficLightViewModel.swift */; };
+		D736EA152C87568E00DF2854 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA142C87568E00DF2854 /* CarView.swift */; };
+		D736EA172C8756BB00DF2854 /* TrafficLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA162C8756BB00DF2854 /* TrafficLightView.swift */; };
+		D736EA192C8756E600DF2854 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA182C8756E600DF2854 /* Timer.swift */; };
+		D736EA1B2C8757E400DF2854 /* CarViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA1A2C8757E400DF2854 /* CarViewModelTests.swift */; };
+		D736EA1D2C87580600DF2854 /* TrafficLightViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736EA1C2C87580600DF2854 /* TrafficLightViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +42,20 @@
 /* Begin PBXFileReference section */
 		D736E9E12C87504C00DF2854 /* Traffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D736E9E42C87504C00DF2854 /* TrafficApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficApp.swift; sourceTree = "<group>"; };
-		D736E9E62C87504C00DF2854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D736E9E82C87504F00DF2854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D736E9EB2C87504F00DF2854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D736E9F12C87505000DF2854 /* TrafficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D736E9F52C87505000DF2854 /* TrafficTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficTests.swift; sourceTree = "<group>"; };
 		D736E9FB2C87505000DF2854 /* TrafficUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D736E9FF2C87505000DF2854 /* TrafficUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficUITests.swift; sourceTree = "<group>"; };
 		D736EA012C87505000DF2854 /* TrafficUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D736EA0E2C8752E400DF2854 /* TrafficLightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightState.swift; sourceTree = "<group>"; };
+		D736EA102C87531300DF2854 /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		D736EA122C87565900DF2854 /* TrafficLightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightViewModel.swift; sourceTree = "<group>"; };
+		D736EA142C87568E00DF2854 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		D736EA162C8756BB00DF2854 /* TrafficLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightView.swift; sourceTree = "<group>"; };
+		D736EA182C8756E600DF2854 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		D736EA1A2C8757E400DF2854 /* CarViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModelTests.swift; sourceTree = "<group>"; };
+		D736EA1C2C87580600DF2854 /* TrafficLightViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				D736E9E42C87504C00DF2854 /* TrafficApp.swift */,
-				D736E9E62C87504C00DF2854 /* ContentView.swift */,
+				D736EA182C8756E600DF2854 /* Timer.swift */,
+				D736EA202C87594D00DF2854 /* Scenes */,
 				D736E9E82C87504F00DF2854 /* Assets.xcassets */,
 				D736E9EA2C87504F00DF2854 /* Preview Content */,
 			);
@@ -113,7 +126,8 @@
 		D736E9F42C87505000DF2854 /* TrafficTests */ = {
 			isa = PBXGroup;
 			children = (
-				D736E9F52C87505000DF2854 /* TrafficTests.swift */,
+				D736EA1A2C8757E400DF2854 /* CarViewModelTests.swift */,
+				D736EA1C2C87580600DF2854 /* TrafficLightViewModelTests.swift */,
 			);
 			path = TrafficTests;
 			sourceTree = "<group>";
@@ -125,6 +139,34 @@
 				D736EA012C87505000DF2854 /* TrafficUITestsLaunchTests.swift */,
 			);
 			path = TrafficUITests;
+			sourceTree = "<group>";
+		};
+		D736EA1E2C87591C00DF2854 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				D736EA142C87568E00DF2854 /* CarView.swift */,
+				D736EA102C87531300DF2854 /* CarViewModel.swift */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		D736EA1F2C87592900DF2854 /* TrafficLight */ = {
+			isa = PBXGroup;
+			children = (
+				D736EA162C8756BB00DF2854 /* TrafficLightView.swift */,
+				D736EA122C87565900DF2854 /* TrafficLightViewModel.swift */,
+				D736EA0E2C8752E400DF2854 /* TrafficLightState.swift */,
+			);
+			path = TrafficLight;
+			sourceTree = "<group>";
+		};
+		D736EA202C87594D00DF2854 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D736EA1E2C87591C00DF2854 /* Car */,
+				D736EA1F2C87592900DF2854 /* TrafficLight */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D736E9E72C87504C00DF2854 /* ContentView.swift in Sources */,
+				D736EA0F2C8752E400DF2854 /* TrafficLightState.swift in Sources */,
+				D736EA172C8756BB00DF2854 /* TrafficLightView.swift in Sources */,
+				D736EA192C8756E600DF2854 /* Timer.swift in Sources */,
+				D736EA152C87568E00DF2854 /* CarView.swift in Sources */,
+				D736EA132C87565900DF2854 /* TrafficLightViewModel.swift in Sources */,
+				D736EA112C87531300DF2854 /* CarViewModel.swift in Sources */,
 				D736E9E52C87504C00DF2854 /* TrafficApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D736E9F62C87505000DF2854 /* TrafficTests.swift in Sources */,
+				D736EA1D2C87580600DF2854 /* TrafficLightViewModelTests.swift in Sources */,
+				D736EA1B2C8757E400DF2854 /* CarViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

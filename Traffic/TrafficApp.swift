@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct TrafficApp: App {
+struct TraficApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CarView()
         }
     }
 }
